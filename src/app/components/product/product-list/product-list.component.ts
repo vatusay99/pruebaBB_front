@@ -12,6 +12,8 @@ import { ProductServices } from '../data/product.service';
 })
 export default class ProductListComponent {
 
+  title: string = 'Listado de productos'
+
   productsState = inject(ProductStateService);
 
 }
